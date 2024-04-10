@@ -1,8 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package StudentDriver;
+
+package studentdriver;
 
 /**
  *
@@ -52,4 +49,3 @@ public class GraduateStudent extends StudentFees{
         return "Student name: " + super.getStudentName() + "\nStudent id: " + super.getStudentID() + "\nEnrolled: " + isIsEnrolled() + "\nGraduate Assistant: " + isGraduateAssistant + "\nGraduate assistant type: " + graduateAssistantType + "\nCourses Enrolled: " + coursesEnrolled + "\nPayable amount: " + getPayableAmount() + "\n";
     }
 }
-
